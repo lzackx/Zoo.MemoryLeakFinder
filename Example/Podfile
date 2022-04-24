@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Zoo.MemoryLeakFinder_Example' do
+  pod 'Zoo.MemoryLeakFinder', :path => '../'
+
+  target 'Zoo.MemoryLeakFinder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
