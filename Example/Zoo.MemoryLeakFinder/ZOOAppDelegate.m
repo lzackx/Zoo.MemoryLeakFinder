@@ -7,12 +7,27 @@
 //
 
 #import "ZOOAppDelegate.h"
+#import <Zoo/ZooManager.h>
+#import <ZooPerformance/ZooManager+Performance.h>
+#import <ZooPerformance/ZooCacheManager+Performance.h>
+#import <ZooMemoryLeakFinder/ZooManager+MemoryLeakFinder.h>
+#import <ZooMemoryLeakFinder/ZooCacheManager+MemoryLeakFinder.h>
+
 
 @implementation ZOOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[ZooManager shareInstance] addPerformancePlugins];
+    [[ZooManager shareInstance] setupPerformancePlugins];
+    
+    [[ZooManager shareInstance] addMemoryLeakFinderPlugins];
+    [[ZooManager shareInstance] setupMemoryLeakFinderPlugins];
+    
+    [[ZooManager shareInstance] install];
+    
     return YES;
 }
 

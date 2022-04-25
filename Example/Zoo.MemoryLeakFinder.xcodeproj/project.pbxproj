@@ -346,11 +346,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Zoo.MemoryLeakFinder_Example/Pods-Zoo.MemoryLeakFinder_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Zoo.MemoryLeakFinder/Zoo_MemoryLeakFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/Zoo/Zoo.framework",
+				"${BUILT_PRODUCTS_DIR}/Zoo.MemoryLeakFinder/ZooMemoryLeakFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/Zoo.Performance/ZooPerformance.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zoo_MemoryLeakFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zoo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZooMemoryLeakFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZooPerformance.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

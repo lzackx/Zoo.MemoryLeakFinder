@@ -1,6 +1,5 @@
 # Zoo.MemoryLeakFinder
 
-[![CI Status](https://img.shields.io/travis/lzackx/Zoo.MemoryLeakFinder.svg?style=flat)](https://travis-ci.org/lzackx/Zoo.MemoryLeakFinder)
 [![Version](https://img.shields.io/cocoapods/v/Zoo.MemoryLeakFinder.svg?style=flat)](https://cocoapods.org/pods/Zoo.MemoryLeakFinder)
 [![License](https://img.shields.io/cocoapods/l/Zoo.MemoryLeakFinder.svg?style=flat)](https://cocoapods.org/pods/Zoo.MemoryLeakFinder)
 [![Platform](https://img.shields.io/cocoapods/p/Zoo.MemoryLeakFinder.svg?style=flat)](https://cocoapods.org/pods/Zoo.MemoryLeakFinder)
