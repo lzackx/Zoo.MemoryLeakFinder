@@ -5,9 +5,9 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooMLeaksFinderViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooCellButton.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooCellButton.h>
+#import <Zoo/ZooDefine.h>
 #import "ZooCacheManager+MemoryLeakFinder.h"
 #import "ZooMLeaksFinderListViewController.h"
 

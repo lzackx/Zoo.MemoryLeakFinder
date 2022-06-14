@@ -11,10 +11,10 @@
 #import <UIKit/UIKit.h>
 #import "ZooMemoryLeakData.h"
 #import "ZooCacheManager+MemoryLeakFinder.h"
-#import "ZooAlertUtil.h"
-#import "UIViewController+Zoo.h"
-#import "ZooAlertUtil.h"
-#import "UIViewController+Zoo.h"
+#import <Zoo/ZooAlertUtil.h>
+#import <Zoo/UIViewController+Zoo.h>
+#import <Zoo/ZooAlertUtil.h>
+#import <Zoo/UIViewController+Zoo.h>
 
 #if _INTERNAL_MLF_RC_ENABLED
 #import <FBRetainCycleDetector/FBRetainCycleDetector.h>

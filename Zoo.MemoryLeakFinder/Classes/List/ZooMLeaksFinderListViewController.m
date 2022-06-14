@@ -6,7 +6,7 @@
 
 #import "ZooMLeaksFinderListViewController.h"
 #import "ZooMemoryLeakData.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import "ZooMLeaksFinderListCell.h"
 #import "ZooMLeaksFinderDetailViewController.h"
 

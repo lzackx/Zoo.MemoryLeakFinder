@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooMLeaksFinderPlugin.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 #import "ZooMLeaksFinderViewController.h"
 
 @implementation ZooMLeaksFinderPlugin
